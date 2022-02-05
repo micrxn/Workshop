@@ -1,0 +1,32 @@
+** We are building an weather app!
+ 
+- We need to make single page application! **
+ 
+-Home page/weather statistics has to include:
+    -Average, Highest and lowest temp.
+    -Average, Highest and lowest humidity.
+    -Warment and coldest time
+    -Name of city and current Temperature
+ 
+-Hourly weather stats in a table view.
+    -Icon of the weather 
+    -Description of the weather
+    -Date and time of the measurements
+    -Temperature
+    -humidity
+    -Wind speed
+ 
+my_key: 1a654bcc362b7f91b77a18bcc43b1049;
+**API:** https://openweathermap.org/current
+ 
+Weather for a City Link: https://api.openweathermap.org/data/2.5/forecast?q=CITY-NAME-HERE&units=metric&APPID=API-KEY-HERE 
+ 
+Planning phase:
+ 
+1. Napravete eden HTML page, style.css, script js i konektirajte gi.
+2. Napravete navigaciski bar, input i button
+3. Input-ot i button-ot selektirajte gi vo samata skripta, make sure they are connected ;)
+4. Ke si napravime funkcija kojashto pravi API povik. FETCH/AJAX
+5. Koga ke klikneme na button-ot, so vrednosta od samiot INPUT ke napravime API REQUEST do dadenata pateka.
+6. Response-ot koisto sme go dobile, treba da go proverime, i da napravime funkcija koja sto ke ni isprinta na samiot screen =)
+    *Pritoa bi napravile pomosna funkcija kojashto ke ni ja PODGOTVI datata za "konzumiranje" t.e printanje
